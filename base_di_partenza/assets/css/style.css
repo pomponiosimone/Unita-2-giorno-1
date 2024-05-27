@@ -362,3 +362,10 @@ footer a {
     main article table p { padding:100px;}
 }
     
+/* pc 1200px */
+
+
+/*stampa*/ 
+@media print {
+   main article section, footer, iframe, aside,header {display: none;}
+}
