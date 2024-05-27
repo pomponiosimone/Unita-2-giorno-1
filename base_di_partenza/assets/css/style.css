@@ -364,6 +364,33 @@ footer a {
     
 /* pc 1200px */
 
+@media screen and (min-width:1200px) {
+    header { 
+        text-align: left;
+       }
+}
+
+@media screen and (min-width:1200px)
+{ header div p { display: inline-block;
+vertical-align: middle;}}
+
+@media screen and (min-width: 1200px) {
+    header nav {position: relative;
+        left:80%;
+        top:50%;
+        vertical-align: top;
+        
+    }
+    
+}
+@media screen and (min-width: 1200px) {
+    iframe{ width:50%; display: inline-block; vertical-align: bottom;}
+}
+
+@media screen and (min-width: 1200px) {
+    main section { width:50%; vertical-align: bottom;
+   position: relative; top:55%; float: right;}
+}
 
 /*stampa*/ 
 @media print {
